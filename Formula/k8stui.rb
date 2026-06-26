@@ -1,7 +1,7 @@
 class K8stui < Formula
   desc "Opinionated terminal UI for managing Kubernetes clusters"
   homepage "https://github.com/AnakKucingTerbang/k8stui"
-  version "0.6.9"
+  version "0.7.0"
   license "Apache-2.0"
 
   on_macos do
