@@ -1,28 +1,28 @@
 class K8stui < Formula
   desc "Opinionated terminal UI for managing Kubernetes clusters"
   homepage "https://github.com/AnakKucingTerbang/k8stui"
-  version "0.7.0"
+  version "0.7.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/AnakKucingTerbang/k8stui/releases/download/v0.6.9/k8stui-macos-arm64"
-      sha256 "8858575ecc24f2b2123af801971d3f68d3a545ee11867d9869677c5b351b49f4"
+      url "https://github.com/AnakKucingTerbang/k8stui/releases/download/v0.7.1/k8stui-macos-arm64"
+      sha256 "b8d291bbba5c4a19a7436a81cd7a311d7142d7c5085f92a4fd491a9004adf88e"
     end
     on_intel do
-      url "https://github.com/AnakKucingTerbang/k8stui/releases/download/v0.6.9/k8stui-macos-x64"
-      sha256 "3138fd7bb8bc92c97e203a5daf0841f2668e437cd03c91243c2570d882112e64"
+      url "https://github.com/AnakKucingTerbang/k8stui/releases/download/v0.7.1/k8stui-macos-x64"
+      sha256 "dd0c93575dbb5a31654c378a623abbdf451586cea83396ba52a6d7152efb3482"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AnakKucingTerbang/k8stui/releases/download/v0.6.9/k8stui-linux-arm64"
-      sha256 "3c652202d4fc3de3873f1749d9ba442a76993d7d8a2a00b1da52ff6ad9fd6022"
+      url "https://github.com/AnakKucingTerbang/k8stui/releases/download/v0.7.1/k8stui-linux-arm64"
+      sha256 "3be08d4b3dcc9ceda160f6bfe5a043b0b416d160d8a495b1224efa1b7ee9543d"
     end
     on_intel do
-      url "https://github.com/AnakKucingTerbang/k8stui/releases/download/v0.6.9/k8stui-linux-x64"
-      sha256 "47a27661cc779912021e2f427f58670801597e24ed67ad841458b3289315fe30"
+      url "https://github.com/AnakKucingTerbang/k8stui/releases/download/v0.7.1/k8stui-linux-x64"
+      sha256 "5253cafcb54e7068bb9f9668506f245db40ddafd3e93174aab3ce2f931bbdc5d"
     end
   end
 
